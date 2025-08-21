@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfamart Operations & Innovation Dashboard - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 0;
+        }
+        .metric-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .metric-card:hover {
+            transform: translateY(-5px);
+        }
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .section-title {
+            color: #333;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#bi-dashboards">BI Dashboards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4">Alfamart Internal Operations & Innovation Dashboard</h1>
+                    <p class="lead mb-4">Comprehensive analysis of operational efficiency, innovation projects, and sustainability initiatives across Alfamart's network (2021-2024)</p>
+                    <div class="d-flex gap-3">
+                        <span class="badge bg-light text-dark px-3 py-2">Power BI</span>
+                        <span class="badge bg-light text-dark px-3 py-2">Data Analytics</span>
+                        <span class="badge bg-light text-dark px-3 py-2">Operations Management</span>
+                        <span class="badge bg-light text-dark px-3 py-2">Innovation Tracking</span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <i class="fas fa-cogs fa-8x opacity-50"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Overview -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Dashboard Overview</h2>
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10">
+                    <div class="card shadow-lg">
+                        <div class="card-body p-0">
+                            <img src="../assets/images/alfamart internal op.png" alt="Alfamart Internal Operations Dashboard" class="img-fluid w-100 dashboard-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Internal Operations Dashboard Analysis -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title text-center mb-4"><i class="fas fa-cogs text-primary me-2"></i>Internal Operations Dashboard Analysis</h3>
+                            
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <h5><i class="fas fa-warehouse text-primary me-2"></i>Distribution & Logistics</h5>
+                                    <p>The dashboard reveals Alfamart's robust distribution network with 128 strategically located depots across Indonesia. This extensive infrastructure ensures efficient supply chain management and enables rapid product distribution to over 18,000 stores nationwide. The logistics optimization has resulted in improved inventory turnover and reduced operational costs.</p>
+                                </div>
+                                
+                                <div class="col-lg-6 mb-4">
+                                    <h5><i class="fas fa-graduation-cap text-success me-2"></i>Training & Compliance</h5>
+                                    <p>With an outstanding 99.6% completion rate for anti-corruption training, Alfamart demonstrates exceptional commitment to ethical business practices. This comprehensive training program covers all employees and ensures regulatory compliance while building a culture of integrity and transparency throughout the organization.</p>
+                                </div>
+                                
+                                <div class="col-lg-6 mb-4">
+                                    <h5><i class="fas fa-solar-panel text-warning me-2"></i>Sustainability Initiatives</h5>
+                                    <p>The implementation of solar panels across 31 branches represents Alfamart's commitment to environmental sustainability. This green energy initiative reduces carbon footprint, lowers operational costs, and aligns with Indonesia's renewable energy goals. The solar panel program is part of a broader sustainability strategy targeting carbon neutrality.</p>
+                                </div>
+                                
+                                <div class="col-lg-6 mb-4">
+                                    <h5><i class="fas fa-lightbulb text-info me-2"></i>Innovation Pipeline</h5>
+                                    <p>With 22 active innovation projects, Alfamart maintains a strong focus on technological advancement and operational improvement. These projects span digital transformation, automation, customer experience enhancement, and process optimization, ensuring the company remains competitive in the evolving retail landscape.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="alert alert-info mt-4">
+                                <h6><i class="fas fa-star text-warning me-2"></i>Key Operational Achievements:</h6>
+                                <ul class="mb-0">
+                                    <li><strong>Infrastructure Excellence:</strong> 128 distribution depots ensuring nationwide coverage</li>
+                                    <li><strong>Compliance Leadership:</strong> 99.6% anti-corruption training completion rate</li>
+                                    <li><strong>Green Innovation:</strong> 31 solar-powered branches reducing environmental impact</li>
+                                    <li><strong>Continuous Innovation:</strong> 22 active projects driving operational efficiency</li>
+                                    <li><strong>Operational Scale:</strong> Supporting 18,000+ stores across Indonesia</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Performance Indicators -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Key Performance Indicators</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="metric-card text-center">
+                        <i class="fas fa-graduation-cap fa-3x text-success mb-3"></i>
+                        <div class="metric-value">99.6%</div>
+                        <h5>Anti-Corruption Training</h5>
+                        <p class="text-muted">Completion Rate</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="metric-card text-center">
+                        <i class="fas fa-warehouse fa-3x text-primary mb-3"></i>
+                        <div class="metric-value">128</div>
+                        <h5>Distribution Depots</h5>
+                        <p class="text-muted">Total Warehouses</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="metric-card text-center">
+                        <i class="fas fa-solar-panel fa-3x text-warning mb-3"></i>
+                        <div class="metric-value">31</div>
+                        <h5>Solar Panel Branches</h5>
+                        <p class="text-muted">Sustainability Initiative</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="metric-card text-center">
+                        <i class="fas fa-lightbulb fa-3x text-info mb-3"></i>
+                        <div class="metric-value">22</div>
+                        <h5>Innovation Projects</h5>
+                        <p class="text-muted">Active Initiatives</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analysis Insights -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Analysis Insights</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-chart-line text-primary me-2"></i>Operational Growth Trends</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-check text-success me-2"></i>Distribution depot expansion from 120 to 128 locations</li>
+                                <li><i class="fas fa-check text-success me-2"></i>Solar panel implementation across 31 strategic branches</li>
+                                <li><i class="fas fa-check text-success me-2"></i>99.6% completion rate for anti-corruption training programs</li>
+                                <li><i class="fas fa-check text-success me-2"></i>22 active innovation projects driving operational efficiency</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-leaf text-success me-2"></i>Sustainability & Innovation</h5>
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-arrow-up text-success me-2"></i>Green energy adoption through solar panel installations</li>
+                                <li><i class="fas fa-arrow-up text-success me-2"></i>Innovation project pipeline showing consistent growth</li>
+                                <li><i class="fas fa-arrow-up text-success me-2"></i>Operational efficiency improvements through technology</li>
+                                <li><i class="fas fa-arrow-up text-success me-2"></i>Compliance excellence with 99.6% training completion</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Implementation -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title">Technical Implementation</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-database text-primary me-2"></i>Data Sources</h5>
+                            <ul>
+                                <li>Annual operational reports (2021-2024)</li>
+                                <li>Training completion databases</li>
+                                <li>Innovation project tracking systems</li>
+                                <li>Sustainability initiative records</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-chart-bar text-success me-2"></i>Visualizations</h5>
+                            <ul>
+                                <li>KPI completion tracking gauges</li>
+                                <li>Multi-year trend analysis charts</li>
+                                <li>Geographic distribution maps</li>
+                                <li>Innovation project pipeline views</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-sync text-info me-2"></i>Update Frequency</h5>
+                            <ul>
+                                <li>Quarterly operational metrics</li>
+                                <li>Monthly training completion rates</li>
+                                <li>Real-time innovation project status</li>
+                                <li>Annual sustainability reporting</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Impact -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <h2 class="text-center mb-5">Business Impact</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center mb-4">
+                    <i class="fas fa-chart-line fa-3x mb-3"></i>
+                    <h5>Operational Efficiency</h5>
+                    <p>Improved distribution network optimization and resource allocation</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center mb-4">
+                    <i class="fas fa-shield-alt fa-3x mb-3"></i>
+                    <h5>Compliance Excellence</h5>
+                    <p>99.6% training completion ensures regulatory compliance</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center mb-4">
+                    <i class="fas fa-leaf fa-3x mb-3"></i>
+                    <h5>Sustainability Goals</h5>
+                    <p>Green energy adoption through solar panel initiatives</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center mb-4">
+                    <i class="fas fa-rocket fa-3x mb-3"></i>
+                    <h5>Innovation Culture</h5>
+                    <p>22 active projects driving continuous improvement</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024 Portfolio. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="../index.html" class="text-white text-decoration-none">Back to Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
